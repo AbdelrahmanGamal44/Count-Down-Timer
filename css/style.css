@@ -5,8 +5,7 @@
   --font-wight-normal: 400;
   --font-wight-bold: 700;
   --font-size-small: 22px;
-  --font-size-medium: 30px;
-  --font-size-large: 32px;
+  --font-size-medium: 28px;
   --font-size-xlarge: 55px;
   --font-color: #111;
   --font-family-numbers: "Oswald";
@@ -107,7 +106,7 @@ body {
   .hours-cont p,
   .minutes-cont p,
   .seconds-cont p {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-medium);
   }
 }
 
