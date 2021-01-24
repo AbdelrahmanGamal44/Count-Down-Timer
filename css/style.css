@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300;1,400&family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+:root {
+  --font-wight-light: 300;
+  --font-wight-normal: 400;
+  --font-wight-bold: 700;
+  --font-size-small: 16px;
+  --font-size-medium: 30px;
+  --font-size-large: 50px;
+  --font-size-xlarge: 55px;
+  --font-color: #111;
+  --font-family-numbers: "Oswald";
+}
+body {
+  background: url("../images/pic02.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  font-family: "Ubuntu", sans-serif;
+  font-size: var(--font-size-medium);
+  color: var(--font-color);
+  font-weight: var(--font-wight-normal);
+  margin-top: 15rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.numbers-cont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.months-cont,
+.days-cont,
+.hours-cont,
+.minutes-cont {
+  margin-right: 3rem;
+  text-align: center;
+}
+.seconds-cont {
+  text-align: center;
+}
+.months-cont p {
+  font-size: var(--font-size-xlarge);
+  color: var(--font-color);
+  font-weight: var(--font-wight-bold);
+  font-family: var(--font-family-numbers);
+  margin-bottom: 5px;
+}
+.months-cont span,
+.days-cont span,
+.hours-cont span,
+.minutes-cont span,
+.seconds-cont span {
+  color: var(--font-color);
+  font-family: "Ubuntu", sans-serif;
+}
+.days-cont p {
+  font-size: var(--font-size-xlarge);
+  color: var(--font-color);
+  font-weight: var(--font-wight-bold);
+  font-family: var(--font-family-numbers);
+  margin-bottom: 5px;
+}
+.hours-cont p {
+  font-size: var(--font-size-xlarge);
+  color: var(--font-color);
+  font-weight: var(--font-wight-bold);
+  font-family: var(--font-family-numbers);
+  margin-bottom: 5px;
+}
+.minutes-cont p {
+  font-size: var(--font-size-xlarge);
+  color: var(--font-color);
+  font-weight: var(--font-wight-bold);
+  font-family: var(--font-family-numbers);
+  margin-bottom: 5px;
+}
+.seconds-cont p {
+  font-size: var(--font-size-xlarge);
+  color: var(--font-color);
+  font-weight: var(--font-wight-bold);
+  font-family: var(--font-family-numbers);
+  margin-bottom: 5px;
+}
