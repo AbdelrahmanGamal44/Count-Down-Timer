@@ -91,3 +91,23 @@ body {
   font-family: var(--font-family-numbers);
   margin-bottom: 5px;
 }
+@media (max-width: 768px) {
+  .header {
+    font-size: var(--font-size-small);
+    margin-top: 11rem;
+  }
+  .months-cont,
+  .days-cont,
+  .hours-cont,
+  .minutes-cont {
+    margin-right: 1.5rem;
+  }
+  .months-cont p,
+  .days-cont p,
+  .hours-cont p,
+  .minutes-cont p,
+  .seconds-cont p {
+    font-size: var(--font-size-large);
+  }
+}
+
